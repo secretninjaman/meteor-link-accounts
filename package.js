@@ -4,8 +4,8 @@ var path = Npm.require('path');
 Package.describe({
   "summary": "Meteor external service link system",
   "version": "1.2.9",
-  "git": "https://github.com/yubozhao/meteor-link-accounts",
-  "name": "bozhao:link-accounts",
+  "git": "https://github.com/secretninjaman/meteor-link-accounts",
+  "name": "secretninjaman:link-accounts",
   "description": "Link social accounts for Meteor"
 });
 
@@ -40,7 +40,8 @@ Package.on_use(function (api) {
     'community-services/twitch.js',
     'community-services/venmo.js',
     'community-services/vk.js',
-    'community-services/wechat.js'
+    'community-services/wechat.js',
+    'community-services/stripe.js'
   ], 'client');
 });
 
