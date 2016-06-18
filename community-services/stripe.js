@@ -13,6 +13,6 @@ if (Meteor.isClient) {
     }
 
     var credentialRequestCompleteCallback = Accounts.oauth.linkCredentialRequestCompleteHandler(callback);
-    Package['chadkruser:meteor-accounts-stripe-connect'].requestCredential(options, credentialRequestCompleteCallback);
+    Package['chadkruser:meteor-accounts-stripe-connect'].StripeOAuth.requestCredential(options, credentialRequestCompleteCallback);
   };
 }
