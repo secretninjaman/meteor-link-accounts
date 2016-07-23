@@ -41,7 +41,8 @@ Package.on_use(function (api) {
     'community-services/venmo.js',
     'community-services/vk.js',
     'community-services/wechat.js',
-    'community-services/stripe.js'
+    'community-services/stripe.js',
+    'community-services/discord.js'
   ], 'client');
 });
 
