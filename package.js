@@ -42,7 +42,8 @@ Package.on_use(function (api) {
     'community-services/vk.js',
     'community-services/wechat.js',
     'community-services/stripe.js',
-    'community-services/discord.js'
+    'community-services/discord.js',
+    'community-services/reddit.js'
   ], 'client');
 });
 
